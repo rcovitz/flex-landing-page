@@ -4,26 +4,22 @@
 
 body {
     display: flex;
-    border: orange 2px solid;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
 }
 
 .header {
     display: flex;
     height: 72px;
     flex-direction: row;
-    flex: none;
     justify-content: space-between;
 }
 
 .logo, .navigation {
     display: flex;
     flex: 1;
-    border: 2px red solid;
 }
 
 .logo {
@@ -32,13 +28,13 @@ body {
     color: #E5E7EB;
 }
 
-
-
-.title-card {
+.hero {
     display: flex;
-    flex: 1;
+    height: 200px;
     flex-direction: row;
     justify-content: center;
+    padding: 50px;
+    gap: 50px;
 }
 
 
