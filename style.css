@@ -1,0 +1,60 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    border: orange 2px solid;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    flex-direction: row;
+    flex: none;
+    justify-content: space-between;
+}
+
+.logo, .navigation {
+    display: flex;
+    flex: 1;
+    border: 2px red solid;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #E5E7EB;
+}
+
+
+
+.title-card {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+.gray {
+    background-color: #E5E7EB;
+}
+
+.white {
+    background-color: white;
+}
